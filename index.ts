@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     return res.status(200).json("This is a web server that runs with Bun :)");
 });
 
-app.listen(3000,() =>{
+app.listen(80() =>{
     return console.log('Express listening port 3000');
 })
